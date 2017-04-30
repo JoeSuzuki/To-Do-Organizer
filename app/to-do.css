@@ -1,57 +1,71 @@
 body {
-        
-        box-shadow: 0 0 2px rgb(0, 0, 0, 0.06);
-        font-size: 10px;
-        margin: 0 auto;
-        max-width: 100%;
-        padding: 2em 2em em 2em;}
-body,h1,h2,h3,h4,h5, h6 {font-family: "Lato", sans-serif;}
-body, html {
-    height: 100%;
-    color: #777;
-    line-height: 1.8;
+    background-color:lightcyan;
+    
+}
+h1{
+    border: 5px double darkturquoise;
+    margin-right: 5em ;
+    margin-left: 5em;
+    font-size: 45px;
+    font-family: monospace;
+    color:chocolate ;
+    
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border-radius: 5px;
-    position: fixed;
-    top: 0;
-    width: 100%;
+.div1 {
+    border: 5px double darkturquoise;
+    height: 60em;
+    background-color:azure;
+    
+}
+.same {
+    display: inline-block;
+    
+    
 }
 
-li {
+#right {
+    float: right;
+    padding-right: 3em;
+    font-size: 35px;
+    font-family: monospace;
+    color:chocolate ;
+    
+}
+#left {
     float: left;
-    border-right:1px solid #bbb;
+    padding-left: 3em;
+    font-size: 35px;
+    font-family: monospace;
+    color:chocolate ;
+    
 }
+.blank {
+    padding-top:80px; 
+      width: auto;
+    
 
-li:last-child {
-    border-right: none;
+    
 }
-
-li a {
-    display: block;
-    color: grey;
-    font-size: 15px;
-    font-weight: bold;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: lightgrey;
-}
-
-p{
-    font-size: 15px;
-    font-family: sans-serif;
+.blanks {
+padding: 6px;
+    
+    
 
 }
-a:link    {color:white; background-color:lightgray; text-decoration:none}
-a:visited {color:red; background-color:lightgray; text-decoration:none}
-a:hover   {color:lightgray; background-color:lightgray; text-decoration:underline}
-a:active  {color:blue; background-color:lightgray; text-decoration:underline}
+.time{
+    border: 10px double red;
+    
+    
+}
+.blanker{
+     padding-top:80px; 
+    float:right;
+      width: auto;
+
+
+}
+#magic {
+    display:none;
+    
+}
