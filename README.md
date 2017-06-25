@@ -1,3 +1,1 @@
-#todo_app
-Project started in CodeNow's program.
-
+#todo_project
