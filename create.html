@@ -1,0 +1,88 @@
+ <!DOCTYPE HTML>
+<html>
+<head>
+<title>Create Account Page!</title>
+    <style>
+        body{
+            background-color: pink;
+        }
+         input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+          input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+    input[type=submit] {
+    width: 100%;
+    background-color: azure;
+    border: 1px solid #ccc;
+    color:black ;
+    padding: 7px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+    input[type=checkbox] {
+        cursor: pointer;    
+    }
+        ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: lightpink;
+}       
+    </style>
+</head>
+<body>
+    <ul>
+  <li><a href="create.html" style="float:left;">Sign Up</a></li> 
+  <li><a href="index.html"style="float:right;">Login In</a></li>
+</ul>
+      <center> 
+<h2>Create an account!</h2>
+<table>
+<tr><td>
+
+ <h3>Choose username and password:</h3>
+           
+ <form action="create.py">
+ <table>
+  <tr>
+   <td>User Name:</td>
+   <td><input type="text" name="user"></td>
+  </tr>
+  <tr>
+   <td>Password:</td>
+   <td> <input type="password" name="pass"></td>
+  </tr>
+  <tr>
+   <td>Password again:</td>
+   <td> <input type="password" name="pass2"></td>
+  </tr>
+  <tr>
+   <td></td><td><input type="submit" name="status" value="create"></td>
+  </tr>
+ </table>
+    </form></td></tr></table>   </center> </body></html>

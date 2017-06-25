@@ -101,7 +101,7 @@ def login(form):
 
 
 def notLoggedIn():
-    return '''You need to login, <a href="login.html">here</a>\n'''
+    return '''You need to login, <a href=“index.html">here</a>\n'''
 
 def main():
     form = cgi.FieldStorage()
