@@ -1,2 +1,7 @@
-#Created by Joe Suzuki and Gavin Huang, introCS2-2017
+# To-Do organizer
 
+Login and customize your to-do table. Built in Python.
+
+## Acknowledgment
+
+Gavin Huang
